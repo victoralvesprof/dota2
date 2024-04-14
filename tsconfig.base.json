@@ -17,6 +17,7 @@
     "paths": {
       "@dota2/hero-list": ["modules/feature/hero/list/src/index.ts"],
       "@dota2/heroes-list": ["modules/data-access/hero/src/index.ts"],
+      "@dota2/home": ["modules/feature/home/src/index.ts"],
       "@dota2/layout": ["modules/feature/layout/src/index.ts"]
     }
   },
