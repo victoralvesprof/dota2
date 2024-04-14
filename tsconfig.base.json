@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@dota2/heroes-list": ["modules/data-access/hero/src/index.ts"],
       "@dota2/layout": ["modules/feature/layout/src/index.ts"]
     }
   },

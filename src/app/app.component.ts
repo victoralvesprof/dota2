@@ -1,11 +1,11 @@
+import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-import { LayoutModule } from '@dota2/layout';
+import { HeaderComponent, LayoutModule } from '@dota2/layout';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, LayoutModule],
+  imports: [RouterModule, LayoutModule, HttpClientModule, HeaderComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
