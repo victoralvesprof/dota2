@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "./src",
-  "tags": [],
+  "tags": ["scope:shared"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
@@ -25,7 +25,7 @@
           "./src/assets"
         ],
         "styles": [
-          "@angular/material/prebuilt-themes/pink-bluegrey.css",
+          "@angular/material/prebuilt-themes//deeppurple-amber.css",
           "./src/styles.scss"
         ],
         "scripts": []

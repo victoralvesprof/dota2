@@ -1,26 +1,26 @@
 :host {
   --custom-padding: 8px 8px;
-//   --custom-color-font: #823051;
-//   --custom-color-bkg: #fffaf8;
+  --custom-color-font: #823051;
+  --custom-color-bkg: #fffaf8;
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: 700;
   padding: 0.7rem 0;
-//   color: #823051;
+  color: #823051;
 }
 
 .hero-table {
   font-size: 1rem;
   width: 100%;
-//   .th-header {
-//     background-color: var(--custom-color-bkg, red);
-//     color: var(--custom-color-font, white);
-//     .mat-sort-header-arrow {
-//       color: var(--custom-color-font, white);
-//     }
-//   }
+  .th-header {
+    background-color: var(--custom-color-bkg, red);
+    color: var(--custom-color-font, white);
+    .mat-sort-header-arrow {
+      color: var(--custom-color-font, white);
+    }
+  }
 }
 
 .mat-column-demo-position {
